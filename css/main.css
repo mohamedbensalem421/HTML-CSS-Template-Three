@@ -507,7 +507,7 @@ header .drop-menu .links a i{
 #features .container .polygon{
   position: absolute;
   width: 120%;
-  top: 55px;
+  top: 8%;
   left: 50%;
   transform: translateX(-50%);
   height: 310px;
@@ -584,6 +584,11 @@ header .drop-menu .links a i{
 }
 #features .container .box:hover a::before{
   width: 100%;
+}
+@media (max-width: 767px) {
+  #features .container .polygon{
+    top: 12%;
+  }
 }
 /* end features */
 
